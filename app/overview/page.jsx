@@ -1,6 +1,7 @@
 "use client";
 
 import StatCard from "@/components/StatCard";
+import SalesOverviewChart from "@/components/SalesOverviewChart";
 import { DollarSign, ShoppingBag, SquareActivity, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -19,6 +20,10 @@ const OverviewPage = () => {
           <StatCard name="Total Products" icon={ShoppingBag} value="674" />
           <StatCard name="Stock" icon={SquareActivity} value="12,845" />
         </motion.div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <SalesOverviewChart />
+        </div>
       </main>
     </div>
   );
