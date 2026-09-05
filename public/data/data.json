@@ -78,5 +78,12 @@
     { "name": "Laptop", "Retention": 4300, "Revenue": 2700, "Profit": 3400 },
     { "name": "Coffee Table", "Retention": 3800, "Revenue": 8900, "Profit": 2700 },
     { "name": "Running Shoes", "Retention": 2600, "Revenue": 9200, "Profit": 2900 }
+  ],
+  "products": [
+    { "id": "#A7F3D67", "name": "Wireless Earbuds", "category": "Electronics", "price": 59.99, "stock": 143, "sales": 1200, "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=100&auto=format&fit=crop&q=60" },
+    { "id": "#B6E4F24", "name": "Laptop", "category": "Electronics", "price": 999.99, "stock": 45, "sales": 530, "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=100&auto=format&fit=crop&q=60" },
+    { "id": "#C5D2A89", "name": "Coffee Table", "category": "Home", "price": 149.99, "stock": 28, "sales": 210, "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=100&auto=format&fit=crop&q=60" },
+    { "id": "#D4B7C34", "name": "Mouse", "category": "Electronics", "price": 29.99, "stock": 95, "sales": 840, "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=100&auto=format&fit=crop&q=60" },
+    { "id": "#E3A5623", "name": "Keyboard", "category": "Electronics", "price": 79.99, "stock": 62, "sales": 410, "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=100&auto=format&fit=crop&q=60" }
   ]
 }
