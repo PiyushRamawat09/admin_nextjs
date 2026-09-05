@@ -2,6 +2,10 @@
 
 import StatCard from "@/components/StatCard";
 import SalesOverviewChart from "@/components/SalesOverviewChart";
+import CategoryDistributionChart from "@/components/CategoryDistributionChart";
+import OrderDistributionChart from "@/components/OrderDistributionChart";
+import ProductPerformanceChart from "@/components/ProductPerformanceChart";
+
 import { DollarSign, ShoppingBag, SquareActivity, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -23,6 +27,9 @@ const OverviewPage = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <SalesOverviewChart />
+          <CategoryDistributionChart />
+          <OrderDistributionChart />
+          <ProductPerformanceChart />
         </div>
       </main>
     </div>
